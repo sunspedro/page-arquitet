@@ -1,9 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+HU:wght@100..400&family=Quicksand:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 * {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
 }
-
 .header-top{
     display: flex;
     align-items: center;
@@ -41,7 +41,6 @@
     color: #9E2A2F;
     transform: translateY(-2px);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-
 }
 .mid-header{
     display: flex;
@@ -49,6 +48,7 @@
     padding: 5px;
     justify-content: center;
     background-color: #585858;
+    font-family: "Quicksand", sans-serif;
 }
 .mid-header a{
     cursor: pointer;
@@ -64,7 +64,7 @@
 .mid-display {
     background-image: 
         linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
-        url('272.jpg');
+        url('C:/Users/pedro.borges/Desktop/Aplicativos uteís/Html/Página atoa/imgs/index_bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,12 +88,11 @@ h2{
     font-size: 40px;
     padding-bottom: 40px;
 }
-
 .mid-content p {
     font-size: 15px;
     padding-bottom: 5px;
+    font-family: "Quicksand", sans-serif;
 }
-
 .mid-catalog-button{
     outline: none;
     border: 0.5px solid #f0ede1;
@@ -107,8 +106,7 @@ h2{
 .mid-catalog-button:hover{
     background-color: #f0ede110;
     transform: translateY(-3px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
-    
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);    
 }
 h2{
     display: flex;
@@ -124,12 +122,17 @@ h2{
 }
 .mid-display-info {
     background-color: #f0ede1;
+    font-family: "Quicksand", sans-serif;
 }
 .mid-info1, .mid-info2{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+.mid-info-text, .mid-info-text1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 300;
 }
 .img-mid-casa1, .img-mid-casa2{
     max-width: 500px;
@@ -150,26 +153,32 @@ h3{
     outline: none;
     color: #353434;
 }
-.mid-final-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 15px;
-    background-color: #d3d3d390;
+.mid-final-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d3d3d3;
     outline: none;
     color: #000;
-    border: 0.3px solid #d3d3d3;
+    border: 1px solid #d3d3d3;
     cursor: pointer;
     border-radius: 5px;
     font-size: 15px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-align: center;
 }
-.mid-final-button:hover{
-    border: 1px solid #fff;
+.mid-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+.mid-final-button:hover {
+    border-color: #9E2A2F;
     background-color: #fff;
     color: #9E2A2F;
     transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 footer{
     display: flex;
